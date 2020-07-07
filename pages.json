@@ -1,0 +1,313 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+        	"path": "pages/index/index",
+        	"style": {
+        		"navigationBarTitleText": "首页",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+			"path": "pages/addPro/index",
+			"style": {
+				"navigationBarTitleText": "新增项目"
+			}
+		},
+        {
+			"path": "pages/imUnit/index",
+			"style": {
+				"navigationBarTitleText": "房源列表",
+                "enablePullDownRefresh": true
+			}
+		},
+        {
+			"path": "pages/addImUnit/index",
+			"style": {
+				"navigationBarTitleText": "新增房源"
+			}
+		},
+        {
+        	"path": "pages/imUnitDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "房源详情"
+        	}
+        },
+        {
+        	"path": "pages/attractInvestment/index",
+        	"style": {
+        		"navigationBarTitleText": "招商项目",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/attractInvestmentDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "招商项目详情"
+        	}
+        },
+        {
+        	"path": "pages/addDynamic/index",
+        	"style": {
+        		"navigationBarTitleText": "写动态"
+        	}
+        },
+        {
+        	"path": "pages/cust/index",
+        	"style": {
+        		"navigationBarTitleText": "客户",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/custDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "客户详情"
+        	}
+        },
+        {
+        	"path": "pages/addCust/index",
+        	"style": {
+        		"navigationBarTitleText": "新增客户"
+        	}
+        },
+        {
+        	"path": "pages/addFollowUp/index",
+        	"style": {
+        		"navigationBarTitleText": "写跟进"
+        	}
+        },
+        {
+        	"path": "pages/addLook/index",
+        	"style": {
+        		"navigationBarTitleText": "录带看"
+        	}
+        },
+        {
+        	"path": "pages/channel/index",
+        	"style": {
+        		"navigationBarTitleText": "渠道",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/addChannel/index",
+        	"style": {
+        		"navigationBarTitleText": "渠道"
+        	}
+        },
+        {
+        	"path": "pages/channelDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "渠道详情"
+        	}
+        },
+        {
+        	"path": "pages/brand/index",
+        	"style": {
+        		"navigationBarTitleText": "品牌",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/addBrand/index",
+        	"style": {
+        		"navigationBarTitleText": "新增品牌"
+        	}
+        },
+        {
+        	"path": "pages/brandDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "品牌详情"
+        	}
+        },
+        {
+        	"path": "pages/report/index",
+        	"style": {
+        		"navigationBarTitleText": "预约报备",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/addReport/index",
+        	"style": {
+        		"navigationBarTitleText": "新增报备",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/reportDetail/index",
+        	"style": {
+        		"navigationBarTitleText": "预约报备详情"
+        	}
+        },
+        {
+        	"path": "pages/message/index",
+        	"style": {
+        		"navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/selPro/index",
+        	"style": {
+        		"navigationBarTitleText": "选择项目",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/selPerson/index",
+        	"style": {
+        		"navigationBarTitleText": "选择人员",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/selBrand/index",
+        	"style": {
+        		"navigationBarTitleText": "选择品牌",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/selAgent/index",
+        	"style": {
+        		"navigationBarTitleText": "选择渠道",
+                "enablePullDownRefresh": true
+        	}
+        },
+        {
+        	"path": "pages/logs/index",
+        	"style": {
+        		"navigationBarTitleText": "我的"
+        	}
+        },
+        {
+        	"path": "pages/tongjiList/index",
+        	"style": {
+        		"navigationBarTitleText": "统计列表查询"
+        	}
+        },
+        {
+        	"path": "pages/login/index",
+        	"style": {
+        		"navigationBarTitleText": "登录小程序"
+        	}
+        },
+        {
+        	"path": "pages/bindStaff/index",
+        	"style": {
+        		"navigationBarTitleText": "绑定员工"
+        	}
+        },
+        {
+            "path": "pages/Reception/index",
+            "style": {
+            	"navigationBarTitleText": "带看记录",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/ReceptionDetail/index",
+            "style": {
+            	"navigationBarTitleText": "带看详情"
+            }
+        },
+        {
+            "path": "pages/wywiad/index",
+            "style": {
+            	"navigationBarTitleText": "访客列表",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/visit/index",
+            "style": {
+            	"navigationBarTitleText": "访问记录",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/selAdmit/index",
+            "style": {
+            	"navigationBarTitleText": "选择接待人员",
+                "enablePullDownRefresh": true
+            }
+        }
+	],
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#ffffff",
+        "selectedColor": "#1989fa",
+        "borderStyle": "white",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "static/icons/tabs/home.png",
+                "selectedIconPath": "static/icons/tabs/homeActive.png"
+            },
+            // {
+            //     "text": "消息",
+            //     "pagePath": "pages/message/index",
+            //     "iconPath": "static/icons/tabs/msg.png",
+            //     "selectedIconPath": "static/icons/tabs/msgActive.png"
+            // },
+            {
+                "text": "我的",
+                "pagePath": "pages/logs/index",
+                "iconPath": "static/icons/tabs/mine.png",
+                "selectedIconPath": "static/icons/tabs/mineActive.png"
+            }
+        ],
+        "position": "bottom"
+    },
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "维修管理",
+		"navigationBarTextStyle": "black",
+        "usingComponents": {
+            "van-button": "/static/vant/button/index",
+            "van-divider": "/static/vant/divider/index",
+            "van-cell": "/static/vant/cell/index",
+            "van-radio": "/static/vant/radio/index",
+            "van-radio-group": "/static/vant/radio-group/index",
+            "van-picker": "/static/vant/picker/index",
+            "van-cell-group": "/static/vant/cell-group/index",
+            "van-popup": "/static/vant/popup/index",
+            "van-tab": "/static/vant/tab/index",
+            "van-tabs": "/static/vant/tabs/index",
+        	"van-toast": "/static/vant/toast/index",
+        	"van-grid": "/static/vant/grid/index",
+        	"van-grid-item": "/static/vant/grid-item/index",
+        	"van-image": "/static/vant/image/index",
+            "van-tabbar": "/static/vant/tabbar/index",
+            "van-tabbar-item": "/static/vant/tabbar-item/index",
+            "van-sticky": "/static/vant/sticky/index",
+            "van-icon": "/static/vant/icon/index",
+            "van-search": "/static/vant/search/index",
+            "van-uploader": "/static/vant/uploader/index",
+            "van-tag": "/static/vant/tag/index",
+            "van-dialog": "/static/vant/dialog/index",
+            "van-field": "/static/vant/field/index",
+            "van-collapse": "/static/vant/collapse/index",
+            "van-collapse-item": "/static/vant/collapse-item/index",
+            "van-area": "/static/vant/area/index",
+            "van-index-bar": "/static/vant/index-bar/index",
+            "van-index-anchor": "/static/vant/index-anchor/index",
+            "van-checkbox": "/static/vant/checkbox/index",
+            "van-checkbox-group": "/static/vant/checkbox-group/index",
+            "van-calendar": "/static/vant/calendar/index",
+            "van-action-sheet": "/static/vant/action-sheet/index",
+            "van-datetime-picker": "/static/vant/datetime-picker/index",
+            "van-transition": "/static/vant/transition/index",
+            "van-dropdown-menu": "/static/vant/dropdown-menu/index",
+            "van-dropdown-item": "/static/vant/dropdown-item/index",
+            "van-steps": "/static/vant/steps/index"
+            
+        }
+	},
+    "networkTimeout": { // 设置超时时间，单位毫秒
+        "request": 20000
+    }
+}
